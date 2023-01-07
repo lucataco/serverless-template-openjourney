@@ -1,10 +1,11 @@
 # Must use a Cuda version 11+
-FROM pytorch/pytorch:1.11.0-cuda11.3-cudnn8-runtime
+FROM pytorch/pytorch:1.12.1-cuda11.3-cudnn8-runtime
 
 WORKDIR /
 
 # Install git
 RUN apt-get update && apt-get install -y git
+RUN conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.6 -c pytorch -c conda-forge
 
 # Install python packages
 RUN pip3 install --upgrade pip

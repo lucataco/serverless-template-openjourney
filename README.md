@@ -1,7 +1,7 @@
 
 # 🍌 Banana Serverless
 
-This repo gives a framework to serve ML models in production using simple HTTP servers.
+This repo is a template for using promptheros openjourney Diffusion model on Banana's serverless GPU platform. Ready to be used for 1-Click deploy.
 
 # Quickstart
 **[Follow the quickstart guide in Banana's documentation to use this repo](https://docs.banana.dev/banana-docs/quickstart).** 
