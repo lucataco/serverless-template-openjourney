@@ -1,0 +1,14 @@
+{
+    "name": "Openjourney",
+    "category": "Computer Vision",
+    "example_input": {
+      "prompt": "retro serie of different cars with different colors and shapes, mdjrny-v4 style",
+      "negative": "",
+      "num_inference_steps": 50,
+      "guidance_scale": 7.5
+    },
+    "example_output": {
+      "image_base64": "<BASE64_STRING>"
+    }
+}
+  
